@@ -63,6 +63,8 @@ Now we are done with both parts and everything has been pushed, we need to merge
 # Extra Notes
 The pair should be constantly communicating, do not isolate yourselves! Both members will code an equal amount.
 
+if renaming and moving files was dangerous before, now it is even worse. Do all your organizations before you move to coding and once you move to coding, try not to move files and folders or create new ones
+
 merge conficts are the absolute worst, but not the end of everything. Part of the exercise is to begin dealing with the complexities of working with other people. google these new errors that come up and look on a way to solve it. 
 
 if you realize you forgot to create a file or do something on the storyboard, tell the lead and have them make the change. Then they should commit and push. The support should then run the comman "git pull origin master" to take in all the new chaanges. Ideally you won't have to do this often or at all.

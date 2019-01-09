@@ -173,7 +173,7 @@ TEST THESE THINGS TOGETHER THROUGH THE CONSOLE. MAKE SURE YOUR DECODING WORKS, T
 YOU REALLY REALLY WANT TO HAVE ALL THE STORYBOARD ELEMENTS AND FILE CREATION DONE BEFORE YOU MOVE ON. AGAIN PLEASE MAKE SURE YOU HAVE THESE THINGS DONE BEFORE YOU TOUCH A SINGLE LINE OF CODE. YOU SHOULD RUN THE APP AND ALTHOUGH YOU WONT SEE ANYTHING, YOU WANT TO MAKE SURE YOU CAN COMPILE. MAKE SURE IT IS ALL DONE. YOU HAVE BEEN WARNED.
 
 
-now that you have all the set up you need, the lead will create a new repo and push the project onto the repo. Once it is up, the support will go to the repo, fork it, and clone it to their computer. Each can go to the appropriate section:
+now that you have all the set up you need, the lead will create a new repo (make sure to tick the setting to include a readme!) and push the project onto the repo. Once it is up, the support will go to the repo, fork it, and clone it to their computer. Each can go to the appropriate section:
 
 
 # Magic
@@ -215,7 +215,8 @@ commit and push.
 
 # The Final Boss
 
-Now we are done with both parts and everything has been pushed, we need to merge them to have one single project. The support will create a new pull request from their fork on github. Once created, the lead will go into their original repo and click the pull request tab which should say 1. You should be able to merge this pull request to obtain all the code from the support. Once this is done, both parties should be able to run the command "git pull origin master" on terminal in the folder of the project and be up to date.
+Now we are done with both parts and everything has been pushed, we need to merge them to have one single project. The support will create a new pull request from their fork on github. Once created, the lead will go into their original repo and click the pull request tab which should say 1. You should be able to merge this pull request to obtain all the code from the support. Once this is done, both parties should be able to run the command "git pull origin master" on terminal in the folder of the project and be up to date. Leads update the readme to include the name of both fellows, supports run  "git pull origin master" again.
+
 
 
 # Extra Notes

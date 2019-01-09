@@ -38,8 +38,7 @@ endpoint: https://api.pokemontcg.io/v1/cards?contains=imageUrl,imageUrlHiRes,att
 your model should obtain: imageUrl, imageUrlHiRes, attacks. Inside attacks you need name, damage, and text. All the data should give you these values so there is no need to create functions to filter it out (as far as I tested). 
 You will need to present a rows of 3 cells where the cell holds the basic imageUrl image.
 
-
-![image](https://media.giphy.com/media/2wYWxv8symU6O5kJWG/giphy.gif)
+![image](https://drive.google.com/uc?export=view&id=1kVsleWhUxr3brDocb3L-buQRYKR32SSq)
 
 
 commit and push.
@@ -50,7 +49,8 @@ you should be able to click out of the cell to go back to the list
 
 the activity indicator should turn on and off as needed on all the images
 
-![image](https://media.giphy.com/media/7zSqc7YbkAzhYdwIFP/giphy.gif)
+
+![image](https://drive.google.com/uc?export=view&id=1qXABCKz1PQwbZEWoYiXvfdvgJN5H0ITw)
 
 commit and push.
 

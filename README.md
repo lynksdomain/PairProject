@@ -2,6 +2,8 @@
 
 First, the github lead will create a new project. The other fellow will help the lead as the support in making sure the storyboard set up is done correctly. That means: setting the info.plist to allow http calls, creating all the appropriate viewcontrollers (THERE ARE NO STORYBOARD SEGUES), tab bar hook up (the support should look up icons for the tab bar badge and should be set NOW), creating all the constraints for all the objects (imageViews, textViews,labels, activity indicators) you are going to use (remember that custom collection cells themselves do NOT have constaints within the collection view), setting all identifiers for storyboards that need to be segued too as well as cell identifiers, creating all the Cocoa Touch Class files and assigning them to the right VC's, and creating all the appropriate outlets.
 
+![image](https://drive.google.com/uc?export=view&id=1FWIytYIVVDPqtRmaZH5VUs49-HxfXgr4)
+
 YOU REALLY REALLY WANT TO HAVE ALL THE STORYBOARD ELEMENTS AND FILE CREATION DONE BEFORE YOU MOVE ON. AGAIN PLEASE MAKE SURE YOU HAVE THESE THINGS DONE BEFORE YOU TOUCH A SINGLE LINE OF CODE. YOU SHOULD RUN THE APP AND ALTHOUGH YOU WONT SEE ANYTHING, YOU WANT TO MAKE SURE YOU CAN COMPILE. MAKE SURE IT IS ALL DONE. YOU HAVE BEEN WARNED.
 
 
@@ -16,11 +18,16 @@ your model should obtain: name, imageUrl, text, and foreignNames. Within foreign
 
 You will need to present a rows of 3 cells where the cell holds the card image. There are objects that you get back that do NOT have an image, you will need to make sure what you use all have images (filter is a thing, remember?) You cannot use the api to do this, you must create your own function or set up for this. You cannot use a default picture (like picture not available)
 
+![image](https://media.giphy.com/media/64avcXl2bRD48B9vAY/giphy.gif)
+
 commit and push.
 
 now when a cell gets selected, a detail viewcontroller is modally presented above the current vc. This will need to be done programatically. On this detailvc, there is only a collection view and the cells will display the foreignnames info. the appropriate picture, two labels for the language and name and one textview for the text description. you should be able to click out of the cell to go back to the list
 
 the activity indicator should turn on and off as needed on all the images
+
+
+![image](https://media.giphy.com/media/cmzoqNwYtPMByypRU0/giphy.gif)
 
 commit and push.
 
@@ -31,6 +38,10 @@ endpoint: https://api.pokemontcg.io/v1/cards?contains=imageUrl,imageUrlHiRes,att
 your model should obtain: imageUrl, imageUrlHiRes, attacks. Inside attacks you need name, damage, and text. All the data should give you these values so there is no need to create functions to filter it out (as far as I tested). 
 You will need to present a rows of 3 cells where the cell holds the basic imageUrl image.
 
+
+![image](https://media.giphy.com/media/2wYWxv8symU6O5kJWG/giphy.gif)
+
+
 commit and push.
 
 now when a cell gets selected, a detail viewcontroller is modally presented above the current vc. This will need to be done programatically. On this detailvc, there is an imageView that displays the imageUrlHiRes image and a collectionview where the cells display the attack information. if the text for the description is an empty string, find a way to hide that cells textview. 
@@ -38,6 +49,8 @@ now when a cell gets selected, a detail viewcontroller is modally presented abov
 you should be able to click out of the cell to go back to the list
 
 the activity indicator should turn on and off as needed on all the images
+
+![image](https://media.giphy.com/media/7zSqc7YbkAzhYdwIFP/giphy.gif)
 
 commit and push.
 

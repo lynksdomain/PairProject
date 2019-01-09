@@ -61,7 +61,7 @@ Now we are done with both parts and everything has been pushed, we need to merge
 
 
 # Extra Notes
-The pair should be constantly communicating, do not isolate yourselves! Both members will code and equal amount.
+The pair should be constantly communicating, do not isolate yourselves! Both members will code an equal amount.
 
 merge conficts are the absolute worst, but not the end of everything. Part of the exercise is to begin dealing with the complexities of working with other people. google these new errors that come up and look on a way to solve it. 
 
